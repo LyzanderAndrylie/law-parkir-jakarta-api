@@ -1,0 +1,46 @@
+nama_tempat_parkir,jenis_lokasi_parkir,alamat,luas_m2,kapasitas_mobil,kapasitas_motor,kapasitas_bus_truk,periode_data
+Gedung Parkir Istana Pasar Baru  8 Lt,gedung,Jln  Pintu Air Raya,12432,445,130,0,2018
+Gedung Parkir Taman Menteng  3 Lt,gedung,Jln  HOS Cokroaminoto No  9 Jakarta Pusat,4455,152,300,0,2018
+Pelataran Parkir IRTI Monas,pelataran,Jln  Medan Merdeka Selatan,18450,352,1250,12,2018
+Pelataran Ex Gedung Parkir Glodok,pelataran,Jln  Pintu Besar Selatan No  1,4640,80,180,0,2018
+Pelataran Cengkeh Taman Kota Intan,pelataran,Jln  Cengkeh,3408,85,120,12,2018
+Pelataran Taman Ismail Marzuki  TIM,pelataran,Jln  Cikini Raya,3801,240,470,8,2018
+Pelataran Thamrin 10,pelataran,Jln  MH Thamrin No 10,2720,250,0,15,2018
+Pelataran Parkir Pulogebang,pelataran,Terminal Terpadu Pulogebang,962,170,250,0,2018
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara,pelataran,Jln  Gunung Sahari No  13,3804,180,800,6,2018
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur,pelataran,Jln  D I Panjaitan Kav  55,7292,400,1097,11,2018
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Barat,pelataran,Jln  Daan Mogot KM 13,3443,120,720,4,2018
+Pelataran Parkir RPTRA Kalijodo,pelataran,Jln  Pangeran Tubagus Angke No 19,13632,113,1200,10,2018
+Park and Ride Vertical Ragunan,park and ride,Jln  Saco No  1B Ragunan,1410,8,800,0,2018
+Park and Ride Kampung Rambutan,park and ride,Jln  Lingkar Luar Selatan  Kampung Rambutan,2034,95,120,0,2018
+Park and Ride Kalideres,park and ride,Jln  Raya Daan Mogot,5075,100,300,0,2018
+Gedung Parkir Istana Pasar Baru  8 Lt,gedung,Jln  Pintu Air Raya,12432,445,130,0,2019
+Gedung Parkir Taman Menteng  3 Lt,gedung,Jln  HOS Cokroaminoto No  9 Jakarta Pusat,4455,152,300,0,2019
+Pelataran Parkir IRTI Monas,pelataran,Jln  Medan Merdeka Selatan,18450,352,1250,12,2019
+Pelataran Ex Gedung Parkir Glodok,pelataran,Jln  Pintu Besar Selatan No  1,4640,80,180,0,2019
+Pelataran Cengkeh Taman Kota Intan,pelataran,Jln  Cengkeh,3408,85,120,12,2019
+Pelataran Taman Ismail Marzuki  TIM,pelataran,Jln  Cikini Raya,3801,240,470,8,2019
+Pelataran Thamrin 10,pelataran,Jln  MH Thamrin No 10,2720,250,0,15,2019
+Pelataran Parkir Pulogebang,pelataran,Terminal Terpadu Pulogebang,962,170,250,0,2019
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara,pelataran,Jln  Gunung Sahari No  13,3804,180,800,6,2019
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur,pelataran,Jln  D I Panjaitan Kav  55,7292,400,1097,11,2019
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Barat,pelataran,Jln  Daan Mogot KM 13,3443,120,720,4,2019
+Pelataran Parkir RPTRA Kalijodo,pelataran,Jln  Pangeran Tubagus Angke No 19,13632,113,1200,10,2019
+Park and Ride Vertical Ragunan,park and ride,Jln  Saco No  1B Ragunan,1410,8,800,0,2019
+Park and Ride Kampung Rambutan,park and ride,Jln  Lingkar Luar Selatan  Kampung Rambutan,2034,95,120,0,2019
+Park and Ride Kalideres,park and ride,Jln  Raya Daan Mogot,5075,100,300,0,2019
+Gedung Parkir Istana Pasar Baru  8 Lt,gedung,Jln  Pintu Air Raya,12432,445,130,0,2017
+Gedung Parkir Taman Menteng  3 Lt,gedung,Jln  HOS Cokroaminoto No  9 Jakarta Pusat,4455,152,300,0,2017
+Pelataran Parkir IRTI Monas,pelataran,Jln  Medan Merdeka Selatan,18450,352,1250,12,2017
+Pelataran Ex Gedung Parkir Glodok,pelataran,Jln  Pintu Besar Selatan No  1,4640,80,180,0,2017
+Pelataran Cengkeh Taman Kota Intan,pelataran,Jln  Cengkeh,3408,85,120,12,2017
+Pelataran Taman Ismail Marzuki  TIM,pelataran,Jln  Cikini Raya,3801,240,470,8,2017
+Pelataran Thamrin 10,pelataran,Jln  MH Thamrin No 10,2720,250,0,15,2017
+Pelataran Parkir Pulogebang,pelataran,Terminal Terpadu Pulogebang,962,170,250,0,2017
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara,pelataran,Jln  Gunung Sahari No  13,3804,180,800,6,2017
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur,pelataran,Jln  D I Panjaitan Kav  55,7292,400,1097,11,2017
+Pelataran Parkir Unit PKB dan BBN KB Jakarta Barat,pelataran,Jln  Daan Mogot KM 13,3443,120,720,4,2017
+Pelataran Parkir RPTRA Kalijodo,pelataran,Jln  Pangeran Tubagus Angke No 19,13632,113,1200,10,2017
+Park and Ride Vertical Ragunan,park and ride,Jln  Saco No  1B Ragunan,1410,8,800,0,2017
+Park and Ride Kampung Rambutan,park and ride,Jln  Lingkar Luar Selatan  Kampung Rambutan,2034,95,120,0,2017
+Park and Ride Kalideres,park and ride,Jln  Raya Daan Mogot,5075,100,300,0,2017

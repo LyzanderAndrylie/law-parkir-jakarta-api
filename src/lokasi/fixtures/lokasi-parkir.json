@@ -1,0 +1,632 @@
+[
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 1,
+    "fields": {
+      "nama": "Gedung Parkir Istana Pasar Baru  8 Lt",
+      "jenis": "gedung",
+      "alamat": "Jln  Pintu Air Raya",
+      "luas_m2": 12432,
+      "kapasitas_mobil": 445,
+      "kapasitas_motor": 130,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 2,
+    "fields": {
+      "nama": "Gedung Parkir Taman Menteng  3 Lt",
+      "jenis": "gedung",
+      "alamat": "Jln  HOS Cokroaminoto No  9 Jakarta Pusat",
+      "luas_m2": 4455,
+      "kapasitas_mobil": 152,
+      "kapasitas_motor": 300,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 3,
+    "fields": {
+      "nama": "Pelataran Parkir IRTI Monas",
+      "jenis": "pelataran",
+      "alamat": "Jln  Medan Merdeka Selatan",
+      "luas_m2": 18450,
+      "kapasitas_mobil": 352,
+      "kapasitas_motor": 1250,
+      "kapasitas_bus_truk": 12,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 4,
+    "fields": {
+      "nama": "Pelataran Ex Gedung Parkir Glodok",
+      "jenis": "pelataran",
+      "alamat": "Jln  Pintu Besar Selatan No  1",
+      "luas_m2": 4640,
+      "kapasitas_mobil": 80,
+      "kapasitas_motor": 180,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 5,
+    "fields": {
+      "nama": "Pelataran Cengkeh Taman Kota Intan",
+      "jenis": "pelataran",
+      "alamat": "Jln  Cengkeh",
+      "luas_m2": 3408,
+      "kapasitas_mobil": 85,
+      "kapasitas_motor": 120,
+      "kapasitas_bus_truk": 12,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 6,
+    "fields": {
+      "nama": "Pelataran Taman Ismail Marzuki  TIM",
+      "jenis": "pelataran",
+      "alamat": "Jln  Cikini Raya",
+      "luas_m2": 3801,
+      "kapasitas_mobil": 240,
+      "kapasitas_motor": 470,
+      "kapasitas_bus_truk": 8,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 7,
+    "fields": {
+      "nama": "Pelataran Thamrin 10",
+      "jenis": "pelataran",
+      "alamat": "Jln  MH Thamrin No 10",
+      "luas_m2": 2720,
+      "kapasitas_mobil": 250,
+      "kapasitas_motor": 0,
+      "kapasitas_bus_truk": 15,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 8,
+    "fields": {
+      "nama": "Pelataran Parkir Pulogebang",
+      "jenis": "pelataran",
+      "alamat": "Terminal Terpadu Pulogebang",
+      "luas_m2": 962,
+      "kapasitas_mobil": 170,
+      "kapasitas_motor": 250,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 9,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara",
+      "jenis": "pelataran",
+      "alamat": "Jln  Gunung Sahari No  13",
+      "luas_m2": 3804,
+      "kapasitas_mobil": 180,
+      "kapasitas_motor": 800,
+      "kapasitas_bus_truk": 6,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 10,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur",
+      "jenis": "pelataran",
+      "alamat": "Jln  D I Panjaitan Kav  55",
+      "luas_m2": 7292,
+      "kapasitas_mobil": 400,
+      "kapasitas_motor": 1097,
+      "kapasitas_bus_truk": 11,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 11,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Barat",
+      "jenis": "pelataran",
+      "alamat": "Jln  Daan Mogot KM 13",
+      "luas_m2": 3443,
+      "kapasitas_mobil": 120,
+      "kapasitas_motor": 720,
+      "kapasitas_bus_truk": 4,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 12,
+    "fields": {
+      "nama": "Pelataran Parkir RPTRA Kalijodo",
+      "jenis": "pelataran",
+      "alamat": "Jln  Pangeran Tubagus Angke No 19",
+      "luas_m2": 13632,
+      "kapasitas_mobil": 113,
+      "kapasitas_motor": 1200,
+      "kapasitas_bus_truk": 10,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 13,
+    "fields": {
+      "nama": "Park and Ride Vertical Ragunan",
+      "jenis": "park and ride",
+      "alamat": "Jln  Saco No  1B Ragunan",
+      "luas_m2": 1410,
+      "kapasitas_mobil": 8,
+      "kapasitas_motor": 800,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 14,
+    "fields": {
+      "nama": "Park and Ride Kampung Rambutan",
+      "jenis": "park and ride",
+      "alamat": "Jln  Lingkar Luar Selatan  Kampung Rambutan",
+      "luas_m2": 2034,
+      "kapasitas_mobil": 95,
+      "kapasitas_motor": 120,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 15,
+    "fields": {
+      "nama": "Park and Ride Kalideres",
+      "jenis": "park and ride",
+      "alamat": "Jln  Raya Daan Mogot",
+      "luas_m2": 5075,
+      "kapasitas_mobil": 100,
+      "kapasitas_motor": 300,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2018"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 16,
+    "fields": {
+      "nama": "Gedung Parkir Istana Pasar Baru  8 Lt",
+      "jenis": "gedung",
+      "alamat": "Jln  Pintu Air Raya",
+      "luas_m2": 12432,
+      "kapasitas_mobil": 445,
+      "kapasitas_motor": 130,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 17,
+    "fields": {
+      "nama": "Gedung Parkir Taman Menteng  3 Lt",
+      "jenis": "gedung",
+      "alamat": "Jln  HOS Cokroaminoto No  9 Jakarta Pusat",
+      "luas_m2": 4455,
+      "kapasitas_mobil": 152,
+      "kapasitas_motor": 300,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 18,
+    "fields": {
+      "nama": "Pelataran Parkir IRTI Monas",
+      "jenis": "pelataran",
+      "alamat": "Jln  Medan Merdeka Selatan",
+      "luas_m2": 18450,
+      "kapasitas_mobil": 352,
+      "kapasitas_motor": 1250,
+      "kapasitas_bus_truk": 12,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 19,
+    "fields": {
+      "nama": "Pelataran Ex Gedung Parkir Glodok",
+      "jenis": "pelataran",
+      "alamat": "Jln  Pintu Besar Selatan No  1",
+      "luas_m2": 4640,
+      "kapasitas_mobil": 80,
+      "kapasitas_motor": 180,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 20,
+    "fields": {
+      "nama": "Pelataran Cengkeh Taman Kota Intan",
+      "jenis": "pelataran",
+      "alamat": "Jln  Cengkeh",
+      "luas_m2": 3408,
+      "kapasitas_mobil": 85,
+      "kapasitas_motor": 120,
+      "kapasitas_bus_truk": 12,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 21,
+    "fields": {
+      "nama": "Pelataran Taman Ismail Marzuki  TIM",
+      "jenis": "pelataran",
+      "alamat": "Jln  Cikini Raya",
+      "luas_m2": 3801,
+      "kapasitas_mobil": 240,
+      "kapasitas_motor": 470,
+      "kapasitas_bus_truk": 8,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 22,
+    "fields": {
+      "nama": "Pelataran Thamrin 10",
+      "jenis": "pelataran",
+      "alamat": "Jln  MH Thamrin No 10",
+      "luas_m2": 2720,
+      "kapasitas_mobil": 250,
+      "kapasitas_motor": 0,
+      "kapasitas_bus_truk": 15,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 23,
+    "fields": {
+      "nama": "Pelataran Parkir Pulogebang",
+      "jenis": "pelataran",
+      "alamat": "Terminal Terpadu Pulogebang",
+      "luas_m2": 962,
+      "kapasitas_mobil": 170,
+      "kapasitas_motor": 250,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 24,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara",
+      "jenis": "pelataran",
+      "alamat": "Jln  Gunung Sahari No  13",
+      "luas_m2": 3804,
+      "kapasitas_mobil": 180,
+      "kapasitas_motor": 800,
+      "kapasitas_bus_truk": 6,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 25,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur",
+      "jenis": "pelataran",
+      "alamat": "Jln  D I Panjaitan Kav  55",
+      "luas_m2": 7292,
+      "kapasitas_mobil": 400,
+      "kapasitas_motor": 1097,
+      "kapasitas_bus_truk": 11,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 26,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Barat",
+      "jenis": "pelataran",
+      "alamat": "Jln  Daan Mogot KM 13",
+      "luas_m2": 3443,
+      "kapasitas_mobil": 120,
+      "kapasitas_motor": 720,
+      "kapasitas_bus_truk": 4,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 27,
+    "fields": {
+      "nama": "Pelataran Parkir RPTRA Kalijodo",
+      "jenis": "pelataran",
+      "alamat": "Jln  Pangeran Tubagus Angke No 19",
+      "luas_m2": 13632,
+      "kapasitas_mobil": 113,
+      "kapasitas_motor": 1200,
+      "kapasitas_bus_truk": 10,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 28,
+    "fields": {
+      "nama": "Park and Ride Vertical Ragunan",
+      "jenis": "park and ride",
+      "alamat": "Jln  Saco No  1B Ragunan",
+      "luas_m2": 1410,
+      "kapasitas_mobil": 8,
+      "kapasitas_motor": 800,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 29,
+    "fields": {
+      "nama": "Park and Ride Kampung Rambutan",
+      "jenis": "park and ride",
+      "alamat": "Jln  Lingkar Luar Selatan  Kampung Rambutan",
+      "luas_m2": 2034,
+      "kapasitas_mobil": 95,
+      "kapasitas_motor": 120,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 30,
+    "fields": {
+      "nama": "Park and Ride Kalideres",
+      "jenis": "park and ride",
+      "alamat": "Jln  Raya Daan Mogot",
+      "luas_m2": 5075,
+      "kapasitas_mobil": 100,
+      "kapasitas_motor": 300,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2019"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 31,
+    "fields": {
+      "nama": "Gedung Parkir Istana Pasar Baru  8 Lt",
+      "jenis": "gedung",
+      "alamat": "Jln  Pintu Air Raya",
+      "luas_m2": 12432,
+      "kapasitas_mobil": 445,
+      "kapasitas_motor": 130,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 32,
+    "fields": {
+      "nama": "Gedung Parkir Taman Menteng  3 Lt",
+      "jenis": "gedung",
+      "alamat": "Jln  HOS Cokroaminoto No  9 Jakarta Pusat",
+      "luas_m2": 4455,
+      "kapasitas_mobil": 152,
+      "kapasitas_motor": 300,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 33,
+    "fields": {
+      "nama": "Pelataran Parkir IRTI Monas",
+      "jenis": "pelataran",
+      "alamat": "Jln  Medan Merdeka Selatan",
+      "luas_m2": 18450,
+      "kapasitas_mobil": 352,
+      "kapasitas_motor": 1250,
+      "kapasitas_bus_truk": 12,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 34,
+    "fields": {
+      "nama": "Pelataran Ex Gedung Parkir Glodok",
+      "jenis": "pelataran",
+      "alamat": "Jln  Pintu Besar Selatan No  1",
+      "luas_m2": 4640,
+      "kapasitas_mobil": 80,
+      "kapasitas_motor": 180,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 35,
+    "fields": {
+      "nama": "Pelataran Cengkeh Taman Kota Intan",
+      "jenis": "pelataran",
+      "alamat": "Jln  Cengkeh",
+      "luas_m2": 3408,
+      "kapasitas_mobil": 85,
+      "kapasitas_motor": 120,
+      "kapasitas_bus_truk": 12,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 36,
+    "fields": {
+      "nama": "Pelataran Taman Ismail Marzuki  TIM",
+      "jenis": "pelataran",
+      "alamat": "Jln  Cikini Raya",
+      "luas_m2": 3801,
+      "kapasitas_mobil": 240,
+      "kapasitas_motor": 470,
+      "kapasitas_bus_truk": 8,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 37,
+    "fields": {
+      "nama": "Pelataran Thamrin 10",
+      "jenis": "pelataran",
+      "alamat": "Jln  MH Thamrin No 10",
+      "luas_m2": 2720,
+      "kapasitas_mobil": 250,
+      "kapasitas_motor": 0,
+      "kapasitas_bus_truk": 15,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 38,
+    "fields": {
+      "nama": "Pelataran Parkir Pulogebang",
+      "jenis": "pelataran",
+      "alamat": "Terminal Terpadu Pulogebang",
+      "luas_m2": 962,
+      "kapasitas_mobil": 170,
+      "kapasitas_motor": 250,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 39,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara",
+      "jenis": "pelataran",
+      "alamat": "Jln  Gunung Sahari No  13",
+      "luas_m2": 3804,
+      "kapasitas_mobil": 180,
+      "kapasitas_motor": 800,
+      "kapasitas_bus_truk": 6,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 40,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur",
+      "jenis": "pelataran",
+      "alamat": "Jln  D I Panjaitan Kav  55",
+      "luas_m2": 7292,
+      "kapasitas_mobil": 400,
+      "kapasitas_motor": 1097,
+      "kapasitas_bus_truk": 11,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 41,
+    "fields": {
+      "nama": "Pelataran Parkir Unit PKB dan BBN KB Jakarta Barat",
+      "jenis": "pelataran",
+      "alamat": "Jln  Daan Mogot KM 13",
+      "luas_m2": 3443,
+      "kapasitas_mobil": 120,
+      "kapasitas_motor": 720,
+      "kapasitas_bus_truk": 4,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 42,
+    "fields": {
+      "nama": "Pelataran Parkir RPTRA Kalijodo",
+      "jenis": "pelataran",
+      "alamat": "Jln  Pangeran Tubagus Angke No 19",
+      "luas_m2": 13632,
+      "kapasitas_mobil": 113,
+      "kapasitas_motor": 1200,
+      "kapasitas_bus_truk": 10,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 43,
+    "fields": {
+      "nama": "Park and Ride Vertical Ragunan",
+      "jenis": "park and ride",
+      "alamat": "Jln  Saco No  1B Ragunan",
+      "luas_m2": 1410,
+      "kapasitas_mobil": 8,
+      "kapasitas_motor": 800,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 44,
+    "fields": {
+      "nama": "Park and Ride Kampung Rambutan",
+      "jenis": "park and ride",
+      "alamat": "Jln  Lingkar Luar Selatan  Kampung Rambutan",
+      "luas_m2": 2034,
+      "kapasitas_mobil": 95,
+      "kapasitas_motor": 120,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2017"
+    }
+  },
+  {
+    "model": "lokasi.lokasiparkir",
+    "pk": 45,
+    "fields": {
+      "nama": "Park and Ride Kalideres",
+      "jenis": "park and ride",
+      "alamat": "Jln  Raya Daan Mogot",
+      "luas_m2": 5075,
+      "kapasitas_mobil": 100,
+      "kapasitas_motor": 300,
+      "kapasitas_bus_truk": 0,
+      "periode_data": "2017"
+    }
+  }
+]
