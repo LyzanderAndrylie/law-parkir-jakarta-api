@@ -278,6 +278,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
 
 ## Contoh Pemanggilan Service
 
-Contoh pemanggilan *web service* terdapat pada file [`postman.md`](./misc/postman.md).
+Contoh pemanggilan *web service* terdapat pada file [`postman.md`](./misc/postman.md) atau folder [`screenshot`](./screenshot/).
 
 :link: [postman.md](./misc/postman.md)
+:link: [/screenshot](./screenshot/)
