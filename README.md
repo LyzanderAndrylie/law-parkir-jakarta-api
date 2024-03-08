@@ -212,7 +212,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
 
 2. Mendapatkan detail untuk masing-masing jenis jasa layanan parkir
 
-   - jasa layanan parkir pada ruang milik jalan (rumija)
+   - Mendapatkan informasi mengenai jasa layanan parkir pada ruang milik jalan (rumija)
 
       Method: GET
 
@@ -220,7 +220,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
       >/api/v1/mekanisme-rumija/
       >```
 
-   - jasa layanan parkir pada lingkungan parkir
+   - Mendapatkan informasi mengenai jasa layanan parkir pada lingkungan parkir
 
       Method: GET
 
@@ -228,7 +228,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
       >/api/v1/mekanisme-lingkungan/
       >```
 
-   - jasa layanan parkir pada pelataran parkir
+   - Mendapatkan informasi mengenai jasa layanan parkir pada pelataran parkir
 
       Method: GET
 
@@ -236,7 +236,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
       >/api/v1/mekanisme-pelataran/
       >```
 
-   - jasa layanan parkir pada gedung parkir
+   - Mendapatkan informasi mengenai jasa layanan parkir pada gedung parkir
 
       Method: GET
 
@@ -244,7 +244,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
       >/api/v1/mekanisme-gedung/
       >```
 
-   - jasa layanan parkir pada lokasi penitipan kendaraan
+   - Mendapatkan informasi mengenai jasa layanan parkir pada lokasi penitipan kendaraan
 
       Method: GET
 
@@ -252,7 +252,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
       >/api/v1/mekanisme-penitipan/
       >```
 
-   - jasa layanan parkir pada lokasi park-and-ride
+   - Mendapatkan informasi mengenai jasa layanan parkir pada lokasi park-and-ride
 
       Method: GET
 
@@ -260,7 +260,7 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
       >/api/v1/mekanisme-park-and-ride/
       >```
 
-   - jasa layanan parkir pada lokasi park-and-ride
+   - Mendapatkan informasi mengenai jasa layanan parkir pada lokasi park-and-ride
 
       Method: GET
 
@@ -268,13 +268,93 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
       >/api/v1/mekanisme-vallet/
       >```
 
-   - jasa layanan parkir pada lokasi dengan alat ukur terminal parkir elektronik (TPE)
+   - Mendapatkan informasi mengenai jasa layanan parkir pada lokasi dengan alat ukur terminal parkir elektronik (TPE)
 
       Method: GET
 
       >```text
       >/api/v1/mekanisme-tpe/
       >```
+
+3. Perhitungan tarif layanan parkir untuk jenis jasa layanan parkir tertentu.
+
+   - Menghitung tarif dari jasa layanan parkir pada ruang milik jalan (rumija)
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-rumija/tarif?golongan=<jenis_golongan>&kendaraan=<jenis_kendaraan>&jam=<angka>
+      >```
+
+      Query Params
+
+      | Param     | value             | description                                                                    |
+      | --------- | ----------------- | ------------------------------------------------------------------------------ |
+      | golongan  | <jenis_golongan>  | (Required) Opsi: kpp, a, b                                                     |
+      | kendaraan | <jenis_kendaraan> | (Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda |
+      | jam       | \<angka>          | (Required) Angka                                                               |
+
+   - Menghitung tarif dari jasa layanan parkir pada lingkungan parkir
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-lingkungan/tarif?jenis=<jenis_layanan>&kendaraan=<jenis_kendaraan>&jam=<angka>
+      >```
+
+      Query Params
+
+      | Param     | value             | description                                                                    |
+      | --------- | ----------------- | ------------------------------------------------------------------------------ |
+      | jenis     | <jenis_layanan>   | (Required) Opsi: harian, langganan_umum, langganan_khusus                      |
+      | kendaraan | <jenis_kendaraan> | (Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda |
+      | jam       | \<angka>          | (Required) Angka                                                               |
+
+   - Menghitung tarif dari jasa layanan parkir pada pelataran parkir
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-pelataran/tarif?jenis=<jenis_layanan>&kendaraan=<jenis_kendaraan>&jam=<angka>
+      >```
+
+      Query Params
+
+      | Param     | value             | description                                                                    |
+      | --------- | ----------------- | ------------------------------------------------------------------------------ |
+      | jenis     | <jenis_layanan>   | (Required) Opsi: harian, langganan_umum, langganan_khusus                      |
+      | kendaraan | <jenis_kendaraan> | (Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda |
+      | jam       | \<angka>          | (Required) Angka                                                               |
+
+   - Menghitung tarif dari jasa layanan parkir pada gedung parkir
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-gedung/tarif?jenis=<jenis_layanan>&kendaraan=<jenis_kendaraan>&jam=<angka>
+      >```
+
+      Query Params
+
+      | Param     | value             | description                                                                    |
+      | --------- | ----------------- | ------------------------------------------------------------------------------ |
+      | jenis     | <jenis_layanan>   | (Required) Opsi: harian, langganan_umum, langganan_khusus                      |
+      | kendaraan | <jenis_kendaraan> | (Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda |
+      | jam       | \<angka>          | (Required) Angka                                                               |
+
+   - Menghitung tarif dari jasa layanan parkir pada lokasi penitipan kendaraan
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-penitipan/tarif?hari=<angka>&kendaraan=<jenis_kendaraan>
+      >```
+
+      Query Params
+
+      | Param     | value             | description                                                                    |
+      | --------- | ----------------- | ------------------------------------------------------------------------------ |
+      | hari      | \<angka>          | (Required) Angka                                                               |
+      | kendaraan | <jenis_kendaraan> | (Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda |
 
 ## Contoh Pemanggilan Service
 

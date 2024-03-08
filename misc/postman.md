@@ -157,25 +157,25 @@
 ## End-point: Cari Lokasi Parkir
 ### Method: GET
 >```
->/api/v1/lokasi
+>/api/v1/lokasi?search=pasar baru&jenis=gedung
 >```
 ### Query Params
 
-| Param                  | value      |
-| ---------------------- | ---------- |
-| search                 | pasar baru |
-| jenis                  | gedung     |
-| kapasitas_mobil        | 352        |
-| kapasitas_motor        | 1250       |
-| kapasitas_bus_truk     | 12         |
-| min_luas_m2            | 5000       |
-| max_luas_m2            | 5000       |
-| max_kapasitas_mobil    | 50         |
-| min_kapasitas_mobil    | 50         |
-| max_kapasitas_motor    | 1250       |
-| min_kapasitas_motor    | 1250       |
-| max_kapasitas_bus_truk | 5          |
-| min_kapasitas_bus_truk | 5          |
+|Param|value|
+|---|---|
+|search|pasar baru|
+|jenis|gedung|
+|kapasitas_mobil|352|
+|kapasitas_motor|1250|
+|kapasitas_bus_truk|12|
+|min_luas_m2|5000|
+|max_luas_m2|5000|
+|max_kapasitas_mobil|50|
+|min_kapasitas_mobil|50|
+|max_kapasitas_motor|1250|
+|min_kapasitas_motor|1250|
+|max_kapasitas_bus_truk|5|
+|min_kapasitas_bus_truk|5|
 
 
 ### Response: 200
@@ -1456,6 +1456,151 @@
             "daftar_mekanisme": "http://localhost:8000/mekanisme-tpe"
         }
     ]
+}
+```
+
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
+# 📁 Folder: Perhitungan Tarif 
+
+
+## End-point: Rumija
+### Method: GET
+>```
+>/api/v1/mekanisme-rumija/tarif?golongan=kpp&kendaraan=sedan&jam=10
+>```
+### Query Params
+
+|Param|value|
+|---|---|
+|golongan|kpp|
+|kendaraan|sedan|
+|jam|10|
+
+
+### Response: 200
+```json
+{
+    "golongan": "jalan kawasan pengendalian parkir (KPP)",
+    "cara_pembayaran": "per jam",
+    "min_total_tarif": 30000,
+    "max_total_tarif": 120000,
+    "avg_total_tarif": 75000
+}
+```
+
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
+
+## End-point: Lingkungan
+### Method: GET
+>```
+>/api/v1/mekanisme-lingkungan/tarif?jenis=harian&kendaraan=jeep&jam=2
+>```
+### Query Params
+
+|Param|value|
+|---|---|
+|jenis|harian|
+|kendaraan|jeep|
+|jam|2|
+
+
+### Response: 200
+```json
+{
+    "jenis_mekanisme": "mekanisme_langganan_umum",
+    "min_total_tarif": 50000,
+    "max_total_tarif": 150000,
+    "avg_total_tarif": 100000
+}
+```
+
+### Response: 200
+```json
+{
+    "cara_pembayaran": "per jam",
+    "min_total_tarif": 4000,
+    "max_total_tarif": 7500,
+    "avg_total_tarif": 5750
+}
+```
+
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
+
+## End-point: Pelataran
+### Method: GET
+>```
+>/api/v1/mekanisme-pelataran/tarif?jenis=harian&kendaraan=sepeda motor&jam=1
+>```
+### Query Params
+
+|Param|value|
+|---|---|
+|jenis|harian|
+|kendaraan|sepeda motor|
+|jam|1|
+
+
+### Response: 200
+```json
+{
+    "cara_pembayaran": "per jam",
+    "min_total_tarif": 10000,
+    "max_total_tarif": 30000,
+    "avg_total_tarif": 20000
+}
+```
+
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
+
+## End-point: Gedung
+### Method: GET
+>```
+>/api/v1/mekanisme-gedung/tarif?jenis=harian&kendaraan=pickup&jam=2
+>```
+### Query Params
+
+|Param|value|
+|---|---|
+|jenis|harian|
+|kendaraan|pickup|
+|jam|2|
+
+
+### Response: 200
+```json
+{
+    "cara_pembayaran": "per jam",
+    "min_total_tarif": 6000,
+    "max_total_tarif": 18000,
+    "avg_total_tarif": 12000
+}
+```
+
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
+
+## End-point: Penitipan
+### Method: GET
+>```
+>/api/v1/mekanisme-penitipan/tarif?hari=5&kendaraan=sepeda
+>```
+### Query Params
+
+|Param|value|
+|---|---|
+|hari|5|
+|kendaraan|sepeda|
+
+
+### Response: 200
+```json
+{
+    "jenis_mekanisme": "per hari",
+    "total_tarif": 50000
 }
 ```
 

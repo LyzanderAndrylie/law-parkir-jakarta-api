@@ -1,0 +1,1983 @@
+{
+	"info": {
+		"_postman_id": "1bbf8e59-bd93-412a-93a5-abc92809a5a9",
+		"name": "LAW - Parkir Jakarta API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26776017"
+	},
+	"item": [
+		{
+			"name": "Lokasi Parkir",
+			"item": [
+				{
+					"name": "Daftar Lokasi Parkir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/lokasi",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"lokasi"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Daftar Lokasi Parkir",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/v1/lokasi",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"v1",
+										"lokasi"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 07 Mar 2024 14:57:43 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2810"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"count\": 45,\n    \"next\": \"http://localhost:8000/api/v1/lokasi/?page=2\",\n    \"previous\": null,\n    \"results\": [\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  Pintu Air Raya\",\n            \"luas_m2\": 12432,\n            \"kapasitas_mobil\": 445,\n            \"kapasitas_motor\": 130,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/1/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Gedung Parkir Taman Menteng  3 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  HOS Cokroaminoto No  9 Jakarta Pusat\",\n            \"luas_m2\": 4455,\n            \"kapasitas_mobil\": 152,\n            \"kapasitas_motor\": 300,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/2/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir IRTI Monas\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Medan Merdeka Selatan\",\n            \"luas_m2\": 18450,\n            \"kapasitas_mobil\": 352,\n            \"kapasitas_motor\": 1250,\n            \"kapasitas_bus_truk\": 12,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/3/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Ex Gedung Parkir Glodok\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Pintu Besar Selatan No  1\",\n            \"luas_m2\": 4640,\n            \"kapasitas_mobil\": 80,\n            \"kapasitas_motor\": 180,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/4/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Cengkeh Taman Kota Intan\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Cengkeh\",\n            \"luas_m2\": 3408,\n            \"kapasitas_mobil\": 85,\n            \"kapasitas_motor\": 120,\n            \"kapasitas_bus_truk\": 12,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/5/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Taman Ismail Marzuki  TIM\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Cikini Raya\",\n            \"luas_m2\": 3801,\n            \"kapasitas_mobil\": 240,\n            \"kapasitas_motor\": 470,\n            \"kapasitas_bus_truk\": 8,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/6/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Thamrin 10\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  MH Thamrin No 10\",\n            \"luas_m2\": 2720,\n            \"kapasitas_mobil\": 250,\n            \"kapasitas_motor\": 0,\n            \"kapasitas_bus_truk\": 15,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/7/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir Pulogebang\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Terminal Terpadu Pulogebang\",\n            \"luas_m2\": 962,\n            \"kapasitas_mobil\": 170,\n            \"kapasitas_motor\": 250,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/8/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Gunung Sahari No  13\",\n            \"luas_m2\": 3804,\n            \"kapasitas_mobil\": 180,\n            \"kapasitas_motor\": 800,\n            \"kapasitas_bus_truk\": 6,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/9/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  D I Panjaitan Kav  55\",\n            \"luas_m2\": 7292,\n            \"kapasitas_mobil\": 400,\n            \"kapasitas_motor\": 1097,\n            \"kapasitas_bus_truk\": 11,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/10/\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Lokasi Parkir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/lokasi/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"lokasi",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Lokasi Parkir",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/v1/lokasi/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"v1",
+										"lokasi",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 07 Mar 2024 15:24:18 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "263"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"periode_data\": \"2018\",\n    \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n    \"jenis\": \"gedung\",\n    \"alamat\": \"Jln  Pintu Air Raya\",\n    \"luas_m2\": 12432,\n    \"kapasitas_mobil\": 445,\n    \"kapasitas_motor\": 130,\n    \"kapasitas_bus_truk\": 0,\n    \"daftar_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Cari Lokasi Parkir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/lokasi?search=pasar baru&jenis=gedung",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"lokasi"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "pasar baru"
+								},
+								{
+									"key": "jenis",
+									"value": "gedung"
+								},
+								{
+									"key": "kapasitas_mobil",
+									"value": "352",
+									"disabled": true
+								},
+								{
+									"key": "kapasitas_motor",
+									"value": "1250",
+									"disabled": true
+								},
+								{
+									"key": "kapasitas_bus_truk",
+									"value": "12",
+									"disabled": true
+								},
+								{
+									"key": "min_luas_m2",
+									"value": "5000",
+									"disabled": true
+								},
+								{
+									"key": "max_luas_m2",
+									"value": "5000",
+									"disabled": true
+								},
+								{
+									"key": "max_kapasitas_mobil",
+									"value": "50",
+									"disabled": true
+								},
+								{
+									"key": "min_kapasitas_mobil",
+									"value": "50",
+									"disabled": true
+								},
+								{
+									"key": "max_kapasitas_motor",
+									"value": "1250",
+									"disabled": true
+								},
+								{
+									"key": "min_kapasitas_motor",
+									"value": "1250",
+									"disabled": true
+								},
+								{
+									"key": "max_kapasitas_bus_truk",
+									"value": "5",
+									"disabled": true
+								},
+								{
+									"key": "min_kapasitas_bus_truk",
+									"value": "5",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Cari Lokasi Parkir Berdasarkan Nama atau Alamat dan Jenis",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/v1/lokasi?search=pasar baru&jenis=gedung",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"v1",
+										"lokasi"
+									],
+									"query": [
+										{
+											"key": "search",
+											"value": "pasar baru"
+										},
+										{
+											"key": "jenis",
+											"value": "gedung"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 07 Mar 2024 15:42:27 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "851"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"count\": 3,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  Pintu Air Raya\",\n            \"luas_m2\": 12432,\n            \"kapasitas_mobil\": 445,\n            \"kapasitas_motor\": 130,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/1/\"\n        },\n        {\n            \"periode_data\": \"2019\",\n            \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  Pintu Air Raya\",\n            \"luas_m2\": 12432,\n            \"kapasitas_mobil\": 445,\n            \"kapasitas_motor\": 130,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/16/\"\n        },\n        {\n            \"periode_data\": \"2017\",\n            \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  Pintu Air Raya\",\n            \"luas_m2\": 12432,\n            \"kapasitas_mobil\": 445,\n            \"kapasitas_motor\": 130,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/31/\"\n        }\n    ]\n}"
+						},
+						{
+							"name": "Cari Lokasi Parkir Bedasarkan Jenis",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/lokasi?jenis=pelataran",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"lokasi"
+									],
+									"query": [
+										{
+											"key": "jenis",
+											"value": "pelataran"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 07 Mar 2024 15:40:45 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2841"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"count\": 30,\n    \"next\": \"http://localhost:8000/api/v1/lokasi/?jenis=pelataran&page=2\",\n    \"previous\": null,\n    \"results\": [\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir IRTI Monas\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Medan Merdeka Selatan\",\n            \"luas_m2\": 18450,\n            \"kapasitas_mobil\": 352,\n            \"kapasitas_motor\": 1250,\n            \"kapasitas_bus_truk\": 12,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/3/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Ex Gedung Parkir Glodok\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Pintu Besar Selatan No  1\",\n            \"luas_m2\": 4640,\n            \"kapasitas_mobil\": 80,\n            \"kapasitas_motor\": 180,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/4/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Cengkeh Taman Kota Intan\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Cengkeh\",\n            \"luas_m2\": 3408,\n            \"kapasitas_mobil\": 85,\n            \"kapasitas_motor\": 120,\n            \"kapasitas_bus_truk\": 12,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/5/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Taman Ismail Marzuki  TIM\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Cikini Raya\",\n            \"luas_m2\": 3801,\n            \"kapasitas_mobil\": 240,\n            \"kapasitas_motor\": 470,\n            \"kapasitas_bus_truk\": 8,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/6/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Thamrin 10\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  MH Thamrin No 10\",\n            \"luas_m2\": 2720,\n            \"kapasitas_mobil\": 250,\n            \"kapasitas_motor\": 0,\n            \"kapasitas_bus_truk\": 15,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/7/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir Pulogebang\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Terminal Terpadu Pulogebang\",\n            \"luas_m2\": 962,\n            \"kapasitas_mobil\": 170,\n            \"kapasitas_motor\": 250,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/8/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir Unit PKB dan BBN KB Jakarta Pusat dan Utara\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Gunung Sahari No  13\",\n            \"luas_m2\": 3804,\n            \"kapasitas_mobil\": 180,\n            \"kapasitas_motor\": 800,\n            \"kapasitas_bus_truk\": 6,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/9/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir Unit PKB dan BBN KB Jakarta Timur\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  D I Panjaitan Kav  55\",\n            \"luas_m2\": 7292,\n            \"kapasitas_mobil\": 400,\n            \"kapasitas_motor\": 1097,\n            \"kapasitas_bus_truk\": 11,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/10/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir Unit PKB dan BBN KB Jakarta Barat\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Daan Mogot KM 13\",\n            \"luas_m2\": 3443,\n            \"kapasitas_mobil\": 120,\n            \"kapasitas_motor\": 720,\n            \"kapasitas_bus_truk\": 4,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/11/\"\n        },\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Pelataran Parkir RPTRA Kalijodo\",\n            \"jenis\": \"pelataran\",\n            \"alamat\": \"Jln  Pangeran Tubagus Angke No 19\",\n            \"luas_m2\": 13632,\n            \"kapasitas_mobil\": 113,\n            \"kapasitas_motor\": 1200,\n            \"kapasitas_bus_truk\": 10,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/12/\"\n        }\n    ]\n}"
+						},
+						{
+							"name": "Cari Lokasi Parkir Berdasarkan Nama atau Alamat",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/lokasi?search=pasar baru",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"lokasi"
+									],
+									"query": [
+										{
+											"key": "search",
+											"value": "pasar baru"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 07 Mar 2024 15:41:22 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "851"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"count\": 3,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"periode_data\": \"2018\",\n            \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  Pintu Air Raya\",\n            \"luas_m2\": 12432,\n            \"kapasitas_mobil\": 445,\n            \"kapasitas_motor\": 130,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/1/\"\n        },\n        {\n            \"periode_data\": \"2019\",\n            \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  Pintu Air Raya\",\n            \"luas_m2\": 12432,\n            \"kapasitas_mobil\": 445,\n            \"kapasitas_motor\": 130,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/16/\"\n        },\n        {\n            \"periode_data\": \"2017\",\n            \"nama\": \"Gedung Parkir Istana Pasar Baru  8 Lt\",\n            \"jenis\": \"gedung\",\n            \"alamat\": \"Jln  Pintu Air Raya\",\n            \"luas_m2\": 12432,\n            \"kapasitas_mobil\": 445,\n            \"kapasitas_motor\": 130,\n            \"kapasitas_bus_truk\": 0,\n            \"detail_lokasi_parkir\": \"http://localhost:8000/api/v1/lokasi/31/\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tarif Parkir",
+			"item": [
+				{
+					"name": "Mekanisme",
+					"item": [
+						{
+							"name": "Rumija",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-rumija/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-rumija",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Rumija",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/v1/mekanisme-rumija/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-rumija",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:37:40 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1721"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 12,\n    \"next\": \"http://localhost:8000/api/v1/mekanisme-rumija/?page=2\",\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 1,\n            \"golongan\": \"jalan kawasan pengendalian parkir (KPP)\",\n            \"min_tarif\": 3000,\n            \"max_tarif\": 12000,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 2,\n            \"golongan\": \"jalan kawasan pengendalian parkir (KPP)\",\n            \"min_tarif\": 4000,\n            \"max_tarif\": 12000,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 3,\n            \"golongan\": \"jalan kawasan pengendalian parkir (KPP)\",\n            \"min_tarif\": 2000,\n            \"max_tarif\": 6000,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 4,\n            \"golongan\": \"jalan kawasan pengendalian parkir (KPP)\",\n            \"min_tarif\": 1000,\n            \"max_tarif\": 1000,\n            \"cara_pembayaran\": \"satu kali parkir\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        },\n        {\n            \"id\": 5,\n            \"golongan\": \"jalan A\",\n            \"min_tarif\": 3000,\n            \"max_tarif\": 9000,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 6,\n            \"golongan\": \"jalan A\",\n            \"min_tarif\": 4000,\n            \"max_tarif\": 9000,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 7,\n            \"golongan\": \"jalan A\",\n            \"min_tarif\": 2000,\n            \"max_tarif\": 4500,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 8,\n            \"golongan\": \"jalan A\",\n            \"min_tarif\": 1000,\n            \"max_tarif\": 1000,\n            \"cara_pembayaran\": \"satu kali parkir\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        },\n        {\n            \"id\": 9,\n            \"golongan\": \"jalan B\",\n            \"min_tarif\": 2000,\n            \"max_tarif\": 6000,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 10,\n            \"golongan\": \"jalan B\",\n            \"min_tarif\": 4000,\n            \"max_tarif\": 6000,\n            \"cara_pembayaran\": \"per jam\",\n            \"jenis_tarif\": 1,\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Lingkungan",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-lingkungan/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-lingkungan",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Lingkungan",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/v1/mekanisme-lingkungan/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-lingkungan",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:37:43 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "4746"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 12,\n    \"next\": \"http://localhost:8000/api/v1/mekanisme-lingkungan/?page=2\",\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 13,\n            \"mekanisme_harian\": {\n                \"id\": 1,\n                \"min_tarif_jam_pertama\": 4000,\n                \"max_tarif_jam_pertama\": 7500,\n                \"min_tarif_jam_berikutnya\": 2000,\n                \"max_tarif_jam_berikutnya\": 6000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 1,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 7500\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 1,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 7500,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 14,\n            \"mekanisme_harian\": {\n                \"id\": 2,\n                \"min_tarif_jam_pertama\": 6000,\n                \"max_tarif_jam_pertama\": 7000,\n                \"min_tarif_jam_berikutnya\": 3000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 2,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 2,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 15,\n            \"mekanisme_harian\": {\n                \"id\": 3,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 3000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 3,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 3000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 3,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 3000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 16,\n            \"mekanisme_harian\": {\n                \"id\": 4,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 1000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 1000,\n                \"cara_pembayaran\": \"satu kali parkir\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 4,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 4,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        },\n        {\n            \"id\": 17,\n            \"mekanisme_harian\": {\n                \"id\": 5,\n                \"min_tarif_jam_pertama\": 4000,\n                \"max_tarif_jam_pertama\": 7500,\n                \"min_tarif_jam_berikutnya\": 2000,\n                \"max_tarif_jam_berikutnya\": 6000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 5,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 7500\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 5,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 7500,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 18,\n            \"mekanisme_harian\": {\n                \"id\": 6,\n                \"min_tarif_jam_pertama\": 6000,\n                \"max_tarif_jam_pertama\": 7000,\n                \"min_tarif_jam_berikutnya\": 3000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 6,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 6,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 19,\n            \"mekanisme_harian\": {\n                \"id\": 7,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 3000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 7,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 3000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 7,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 3000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 20,\n            \"mekanisme_harian\": {\n                \"id\": 8,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 1000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 1000,\n                \"cara_pembayaran\": \"satu kali parkir\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 8,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 8,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        },\n        {\n            \"id\": 21,\n            \"mekanisme_harian\": {\n                \"id\": 9,\n                \"min_tarif_jam_pertama\": 4000,\n                \"max_tarif_jam_pertama\": 10000,\n                \"min_tarif_jam_berikutnya\": 2000,\n                \"max_tarif_jam_berikutnya\": 8000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 9,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 10000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 9,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 10000,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 22,\n            \"mekanisme_harian\": {\n                \"id\": 10,\n                \"min_tarif_jam_pertama\": 6000,\n                \"max_tarif_jam_pertama\": 7000,\n                \"min_tarif_jam_berikutnya\": 3000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 10,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 10,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Pelataran",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-pelataran/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-pelataran",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Pelataran",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/v1/mekanisme-pelataran/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-pelataran",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:37:47 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1901"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 4,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 17,\n            \"mekanisme_harian\": {\n                \"id\": 5,\n                \"min_tarif_jam_pertama\": 4000,\n                \"max_tarif_jam_pertama\": 7500,\n                \"min_tarif_jam_berikutnya\": 2000,\n                \"max_tarif_jam_berikutnya\": 6000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 5,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 7500\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 5,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 7500,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 18,\n            \"mekanisme_harian\": {\n                \"id\": 6,\n                \"min_tarif_jam_pertama\": 6000,\n                \"max_tarif_jam_pertama\": 7000,\n                \"min_tarif_jam_berikutnya\": 3000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 6,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 6,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 19,\n            \"mekanisme_harian\": {\n                \"id\": 7,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 3000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 7,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 3000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 7,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 3000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 20,\n            \"mekanisme_harian\": {\n                \"id\": 8,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 1000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 1000,\n                \"cara_pembayaran\": \"satu kali parkir\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 8,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 8,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Gedung",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-gedung/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-gedung",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Gedung",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/v1/mekanisme-gedung/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-gedung",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:37:49 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1913"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 4,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 21,\n            \"mekanisme_harian\": {\n                \"id\": 9,\n                \"min_tarif_jam_pertama\": 4000,\n                \"max_tarif_jam_pertama\": 10000,\n                \"min_tarif_jam_berikutnya\": 2000,\n                \"max_tarif_jam_berikutnya\": 8000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 9,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 10000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 9,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 4000,\n                \"max_tarif_dasar\": 10000,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 22,\n            \"mekanisme_harian\": {\n                \"id\": 10,\n                \"min_tarif_jam_pertama\": 6000,\n                \"max_tarif_jam_pertama\": 7000,\n                \"min_tarif_jam_berikutnya\": 3000,\n                \"max_tarif_jam_berikutnya\": 3000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 10,\n                \"hari\": 25,\n                \"intensitas\": 3,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 10,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 6000,\n                \"max_tarif_dasar\": 7000,\n                \"multiplier\": 0.75\n            },\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 23,\n            \"mekanisme_harian\": {\n                \"id\": 11,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 4000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 4000,\n                \"cara_pembayaran\": \"per jam\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 11,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 4000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 11,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 4000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 24,\n            \"mekanisme_harian\": {\n                \"id\": 12,\n                \"min_tarif_jam_pertama\": 1000,\n                \"max_tarif_jam_pertama\": 1000,\n                \"min_tarif_jam_berikutnya\": 1000,\n                \"max_tarif_jam_berikutnya\": 1000,\n                \"cara_pembayaran\": \"satu kali parkir\"\n            },\n            \"mekanisme_langganan_umum\": {\n                \"id\": 12,\n                \"hari\": 25,\n                \"intensitas\": 2,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000\n            },\n            \"mekanisme_langganan_khusus\": {\n                \"id\": 12,\n                \"hari\": 22,\n                \"kali_parkir\": 1,\n                \"min_tarif_dasar\": 1000,\n                \"max_tarif_dasar\": 1000,\n                \"multiplier\": 1\n            },\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Penitipan",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-penitipan/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-penitipan",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Penitipan",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/v1/mekanisme-penitipan/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-penitipan",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:37:52 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "414"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 4,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 25,\n            \"tarif\": 45000,\n            \"cara_pembayaran\": \"per hari\",\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\"\n            ]\n        },\n        {\n            \"id\": 26,\n            \"tarif\": 85000,\n            \"cara_pembayaran\": \"per hari\",\n            \"jenis_kendaraan\": [\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 27,\n            \"tarif\": 25000,\n            \"cara_pembayaran\": \"per hari\",\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 28,\n            \"tarif\": 10000,\n            \"cara_pembayaran\": \"per hari\",\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Park and ride",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-park-and-ride/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-park-and-ride",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Park and ride",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8000/api/v1/mekanisme-park-and-ride/",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8000",
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-park-and-ride",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:37:55 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "362"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 3,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 29,\n            \"tarif\": 5000,\n            \"cara_pembayaran\": \"satu kali parkir\",\n            \"jenis_kendaraan\": [\n                \"sedan\",\n                \"jeep\",\n                \"minibus\",\n                \"pickup\",\n                \"bus\",\n                \"truk\"\n            ]\n        },\n        {\n            \"id\": 30,\n            \"tarif\": 2000,\n            \"cara_pembayaran\": \"satu kali parkir\",\n            \"jenis_kendaraan\": [\n                \"sepeda motor\"\n            ]\n        },\n        {\n            \"id\": 31,\n            \"tarif\": 1000,\n            \"cara_pembayaran\": \"satu kali parkir\",\n            \"jenis_kendaraan\": [\n                \"sepeda\"\n            ]\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Vallet",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-vallet/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-vallet",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Vallet",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/api/v1/mekanisme-vallet/",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-vallet",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:37:58 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "113"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 1,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 32,\n            \"min_tarif\": 20000,\n            \"max_tarif\": 50000,\n            \"jenis_tarif\": 7\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "TPE",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-tpe/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-tpe",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "TPE",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/api/v1/mekanisme-tpe/",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"mekanisme-tpe",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 08 Mar 2024 09:38:01 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.12.0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie"
+										},
+										{
+											"key": "Allow",
+											"value": "GET, POST, HEAD, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1555"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"count\": 1,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"tarif_harian\": {\n                \"id\": 1,\n                \"nama\": \"ruang milik jalan\"\n            },\n            \"tarif_langganan\": [\n                {\n                    \"id\": 1,\n                    \"jenis_kendaraan\": [\n                        \"sedan\",\n                        \"jeep\",\n                        \"minibus\",\n                        \"pickup\"\n                    ],\n                    \"total_hari\": 0,\n                    \"tarif_hari_jam\": 5000,\n                    \"tarif_tpe\": {\n                        \"id\": 33,\n                        \"jenis_tarif\": 8,\n                        \"tarif_harian\": 1\n                    },\n                    \"jenis_langganan_per_hari\": [\n                        {\n                            \"id\": 1,\n                            \"jam\": 12,\n                            \"jenis_penggunaan_lahan_parkir\": \"menetap\"\n                        },\n                        {\n                            \"id\": 2,\n                            \"jam\": 4,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        },\n                        {\n                            \"id\": 3,\n                            \"jam\": 2,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        }\n                    ]\n                },\n                {\n                    \"id\": 2,\n                    \"jenis_kendaraan\": [\n                        \"bus\",\n                        \"truk\"\n                    ],\n                    \"total_hari\": 0,\n                    \"tarif_hari_jam\": 8000,\n                    \"tarif_tpe\": {\n                        \"id\": 33,\n                        \"jenis_tarif\": 8,\n                        \"tarif_harian\": 1\n                    },\n                    \"jenis_langganan_per_hari\": [\n                        {\n                            \"id\": 1,\n                            \"jam\": 12,\n                            \"jenis_penggunaan_lahan_parkir\": \"menetap\"\n                        },\n                        {\n                            \"id\": 2,\n                            \"jam\": 4,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        },\n                        {\n                            \"id\": 3,\n                            \"jam\": 2,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        }\n                    ]\n                },\n                {\n                    \"id\": 3,\n                    \"jenis_kendaraan\": [\n                        \"sepeda motor\"\n                    ],\n                    \"total_hari\": 0,\n                    \"tarif_hari_jam\": 2000,\n                    \"tarif_tpe\": {\n                        \"id\": 33,\n                        \"jenis_tarif\": 8,\n                        \"tarif_harian\": 1\n                    },\n                    \"jenis_langganan_per_hari\": [\n                        {\n                            \"id\": 1,\n                            \"jam\": 12,\n                            \"jenis_penggunaan_lahan_parkir\": \"menetap\"\n                        },\n                        {\n                            \"id\": 2,\n                            \"jam\": 4,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        },\n                        {\n                            \"id\": 3,\n                            \"jam\": 2,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        }\n                    ]\n                },\n                {\n                    \"id\": 4,\n                    \"jenis_kendaraan\": [\n                        \"sepeda\"\n                    ],\n                    \"total_hari\": 0,\n                    \"tarif_hari_jam\": 1000,\n                    \"tarif_tpe\": {\n                        \"id\": 33,\n                        \"jenis_tarif\": 8,\n                        \"tarif_harian\": 1\n                    },\n                    \"jenis_langganan_per_hari\": [\n                        {\n                            \"id\": 1,\n                            \"jam\": 12,\n                            \"jenis_penggunaan_lahan_parkir\": \"menetap\"\n                        },\n                        {\n                            \"id\": 2,\n                            \"jam\": 4,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        },\n                        {\n                            \"id\": 3,\n                            \"jam\": 2,\n                            \"jenis_penggunaan_lahan_parkir\": \"tidak menetap\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Daftar Jenis Layanan Parkir",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/tarif/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"tarif",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Daftar Jenis Tarif Parkir",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/tarif/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"tarif",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 08 Mar 2024 09:37:16 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "747"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"count\": 8,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"name\": \"ruang milik jalan\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-rumija\"\n        },\n        {\n            \"name\": \"lingkungan\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-lingkungan\"\n        },\n        {\n            \"name\": \"pelataran\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-pelataran\"\n        },\n        {\n            \"name\": \"gedung\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-gedung\"\n        },\n        {\n            \"name\": \"penitipan kendaraan\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-penitipan\"\n        },\n        {\n            \"name\": \"park and ride\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-park-and-ride\"\n        },\n        {\n            \"name\": \"vallet\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-vallet\"\n        },\n        {\n            \"name\": \"terminal parkir elektronik\",\n            \"daftar_mekanisme\": \"http://localhost:8000/mekanisme-tpe\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Perhitungan Tarif",
+			"item": [
+				{
+					"name": "Rumija",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/mekanisme-rumija/tarif?golongan=kpp&kendaraan=sedan&jam=10",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mekanisme-rumija",
+								"tarif"
+							],
+							"query": [
+								{
+									"key": "golongan",
+									"value": "kpp",
+									"description": "(Required) Opsi: kpp, a, b"
+								},
+								{
+									"key": "kendaraan",
+									"value": "sedan",
+									"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+								},
+								{
+									"key": "jam",
+									"value": "10",
+									"description": "(Required) Angka"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Rumija",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-rumija/tarif?golongan=kpp&kendaraan=sedan&jam=10",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-rumija",
+										"tarif"
+									],
+									"query": [
+										{
+											"key": "golongan",
+											"value": "kpp",
+											"description": "(Required) Opsi: kpp, a, b"
+										},
+										{
+											"key": "kendaraan",
+											"value": "sedan",
+											"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+										},
+										{
+											"key": "jam",
+											"value": "10",
+											"description": "(Required) Angka"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 08 Mar 2024 13:21:04 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "157"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"golongan\": \"jalan kawasan pengendalian parkir (KPP)\",\n    \"cara_pembayaran\": \"per jam\",\n    \"min_total_tarif\": 30000,\n    \"max_total_tarif\": 120000,\n    \"avg_total_tarif\": 75000\n}"
+						}
+					]
+				},
+				{
+					"name": "Lingkungan",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/mekanisme-lingkungan/tarif?jenis=harian&kendaraan=jeep&jam=2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mekanisme-lingkungan",
+								"tarif"
+							],
+							"query": [
+								{
+									"key": "jenis",
+									"value": "harian",
+									"description": "(Required) Opsi: harian, langganan_umum, langganan_khusus"
+								},
+								{
+									"key": "kendaraan",
+									"value": "jeep",
+									"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+								},
+								{
+									"key": "jam",
+									"value": "2",
+									"description": "(Required) Angka"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Lingkungan",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-lingkungan/tarif?jenis=langganan_umum&kendaraan=sepeda motor&jam=1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-lingkungan",
+										"tarif"
+									],
+									"query": [
+										{
+											"key": "jenis",
+											"value": "langganan_umum",
+											"description": "(Required) Opsi: harian, langganan_umum, langganan_khusus"
+										},
+										{
+											"key": "kendaraan",
+											"value": "sepeda motor",
+											"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+										},
+										{
+											"key": "jam",
+											"value": "1",
+											"description": "(Required) Angka"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 08 Mar 2024 13:05:40 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "122"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"jenis_mekanisme\": \"mekanisme_langganan_umum\",\n    \"min_total_tarif\": 50000,\n    \"max_total_tarif\": 150000,\n    \"avg_total_tarif\": 100000\n}"
+						},
+						{
+							"name": "Lingkungan",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-lingkungan/tarif?jenis=harian&kendaraan=jeep&jam=2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-lingkungan",
+										"tarif"
+									],
+									"query": [
+										{
+											"key": "jenis",
+											"value": "harian",
+											"description": "(Required) Opsi: harian, langganan_umum, langganan_khusus"
+										},
+										{
+											"key": "kendaraan",
+											"value": "jeep",
+											"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+										},
+										{
+											"key": "jam",
+											"value": "2",
+											"description": "(Required) Angka"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 08 Mar 2024 13:20:53 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "100"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"cara_pembayaran\": \"per jam\",\n    \"min_total_tarif\": 4000,\n    \"max_total_tarif\": 7500,\n    \"avg_total_tarif\": 5750\n}"
+						}
+					]
+				},
+				{
+					"name": "Pelataran",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/mekanisme-pelataran/tarif?jenis=harian&kendaraan=sepeda motor&jam=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mekanisme-pelataran",
+								"tarif"
+							],
+							"query": [
+								{
+									"key": "jenis",
+									"value": "harian",
+									"description": "(Required) Opsi: harian, langganan_umum, langganan_khusus"
+								},
+								{
+									"key": "kendaraan",
+									"value": "sepeda motor",
+									"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+								},
+								{
+									"key": "jam",
+									"value": "1",
+									"description": "(Required) Angka"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Pelataran",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-pelataran/tarif?jenis=harian&kendaraan=sepeda motor&jam=1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-pelataran",
+										"tarif"
+									],
+									"query": [
+										{
+											"key": "jenis",
+											"value": "harian",
+											"description": "(Required) Opsi: harian, langganan_umum, langganan_khusus"
+										},
+										{
+											"key": "kendaraan",
+											"value": "sepeda motor",
+											"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+										},
+										{
+											"key": "jam",
+											"value": "1",
+											"description": "(Required) Angka"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 08 Mar 2024 13:32:48 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "103"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"cara_pembayaran\": \"per jam\",\n    \"min_total_tarif\": 10000,\n    \"max_total_tarif\": 30000,\n    \"avg_total_tarif\": 20000\n}"
+						}
+					]
+				},
+				{
+					"name": "Gedung",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/mekanisme-gedung/tarif?jenis=harian&kendaraan=pickup&jam=2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mekanisme-gedung",
+								"tarif"
+							],
+							"query": [
+								{
+									"key": "jenis",
+									"value": "harian",
+									"description": "(Required) Opsi: harian, langganan_umum, langganan_khusus"
+								},
+								{
+									"key": "kendaraan",
+									"value": "pickup",
+									"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+								},
+								{
+									"key": "jam",
+									"value": "2",
+									"description": "(Required) Angka"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Gedung",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-gedung/tarif?jenis=harian&kendaraan=pickup&jam=2",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-gedung",
+										"tarif"
+									],
+									"query": [
+										{
+											"key": "jenis",
+											"value": "harian",
+											"description": "(Required) Opsi: harian, langganan_umum, langganan_khusus"
+										},
+										{
+											"key": "kendaraan",
+											"value": "pickup",
+											"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+										},
+										{
+											"key": "jam",
+											"value": "2",
+											"description": "(Required) Angka"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 08 Mar 2024 13:33:48 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "102"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"cara_pembayaran\": \"per jam\",\n    \"min_total_tarif\": 6000,\n    \"max_total_tarif\": 18000,\n    \"avg_total_tarif\": 12000\n}"
+						}
+					]
+				},
+				{
+					"name": "Penitipan",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/mekanisme-penitipan/tarif?hari=5&kendaraan=sepeda",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mekanisme-penitipan",
+								"tarif"
+							],
+							"query": [
+								{
+									"key": "hari",
+									"value": "5",
+									"description": "(Required) Angka"
+								},
+								{
+									"key": "kendaraan",
+									"value": "sepeda",
+									"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Penitipan",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/mekanisme-penitipan/tarif?hari=5&kendaraan=sepeda",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"mekanisme-penitipan",
+										"tarif"
+									],
+									"query": [
+										{
+											"key": "hari",
+											"value": "5",
+											"description": "(Required) Angka"
+										},
+										{
+											"key": "kendaraan",
+											"value": "sepeda",
+											"description": "(Required) Opsi: sedan, jeep, minibus, pickup, bus, truk, sepeda motor, sepeda"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 08 Mar 2024 13:48:40 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.12.0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "50"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"jenis_mekanisme\": \"per hari\",\n    \"total_tarif\": 50000\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
