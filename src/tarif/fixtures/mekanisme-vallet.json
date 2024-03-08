@@ -1,0 +1,10 @@
+[
+  {
+    "model": "tarif.MekanismeTarifVallet",
+    "pk": 32,
+    "fields": {
+      "min_tarif": 20000,
+      "max_tarif": 50000
+    }
+  }
+]

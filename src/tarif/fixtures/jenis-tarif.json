@@ -1,0 +1,58 @@
+[
+  {
+    "model": "tarif.jenistarif",
+    "pk": 1,
+    "fields": {
+      "nama": "ruang milik jalan"
+    }
+  },
+  {
+    "model": "tarif.jenistarif",
+    "pk": 2,
+    "fields": {
+      "nama": "lingkungan"
+    }
+  },
+  {
+    "model": "tarif.jenistarif",
+    "pk": 3,
+    "fields": {
+      "nama": "pelataran"
+    }
+  },
+  {
+    "model": "tarif.jenistarif",
+    "pk": 4,
+    "fields": {
+      "nama": "gedung"
+    }
+  },
+  {
+    "model": "tarif.jenistarif",
+    "pk": 5,
+    "fields": {
+      "nama": "penitipan kendaraan"
+    }
+  },
+  {
+    "model": "tarif.jenistarif",
+    "pk": 6,
+    "fields": {
+      "nama": "park and ride"
+    }
+  },
+  {
+    "model": "tarif.jenistarif",
+    "pk": 7,
+    "fields": {
+      "nama": "vallet"
+    }
+  },
+  {
+    "model": "tarif.jenistarif",
+    "pk": 8,
+    "fields": {
+      "nama": "terminal parkir elektronik"
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 1,
+    "fields": {
+      "golongan": "jalan kawasan pengendalian parkir (KPP)",
+      "jenis_kendaraan": [1, 2, 3, 4],
+      "min_tarif": 3000,
+      "max_tarif": 12000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 2,
+    "fields": {
+      "golongan": "jalan kawasan pengendalian parkir (KPP)",
+      "jenis_kendaraan": [5, 6],
+      "min_tarif": 4000,
+      "max_tarif": 12000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 3,
+    "fields": {
+      "golongan": "jalan kawasan pengendalian parkir (KPP)",
+      "jenis_kendaraan": [7],
+      "min_tarif": 2000,
+      "max_tarif": 6000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 4,
+    "fields": {
+      "golongan": "jalan kawasan pengendalian parkir (KPP)",
+      "jenis_kendaraan": [8],
+      "min_tarif": 1000,
+      "max_tarif": 1000,
+      "cara_pembayaran": "satu kali parkir"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 5,
+    "fields": {
+      "golongan": "jalan A",
+      "jenis_kendaraan": [1, 2, 3, 4],
+      "min_tarif": 3000,
+      "max_tarif": 9000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 6,
+    "fields": {
+      "golongan": "jalan A",
+      "jenis_kendaraan": [5, 6],
+      "min_tarif": 4000,
+      "max_tarif": 9000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 7,
+    "fields": {
+      "golongan": "jalan A",
+      "jenis_kendaraan": [7],
+      "min_tarif": 2000,
+      "max_tarif": 4500,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 8,
+    "fields": {
+      "golongan": "jalan A",
+      "jenis_kendaraan": [8],
+      "min_tarif": 1000,
+      "max_tarif": 1000,
+      "cara_pembayaran": "satu kali parkir"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 9,
+    "fields": {
+      "golongan": "jalan B",
+      "jenis_kendaraan": [1, 2, 3, 4],
+      "min_tarif": 2000,
+      "max_tarif": 6000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 10,
+    "fields": {
+      "golongan": "jalan B",
+      "jenis_kendaraan": [5, 6],
+      "min_tarif": 4000,
+      "max_tarif": 6000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 11,
+    "fields": {
+      "golongan": "jalan B",
+      "jenis_kendaraan": [7],
+      "min_tarif": 2000,
+      "max_tarif": 3000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifRuangMilikJalan",
+    "pk": 12,
+    "fields": {
+      "golongan": "jalan B",
+      "jenis_kendaraan": [8],
+      "min_tarif": 1000,
+      "max_tarif": 1000,
+      "cara_pembayaran": "satu kali parkir"
+    }
+  }
+]

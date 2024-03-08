@@ -50,7 +50,7 @@ Pastikan bahwa `Python`, `pip`, dan `postgresql` sudah ter-*install* pada komput
 8. Jalankan seeding database
 
     ```shell
-    python manage.py loaddata lokasi-parkir
+    python manage.py loaddata jenis-tarif mekanisme-tarif kendaraan mekanisme-rumija mekanisme-lingkungan mekanisme-pelataran mekanisme-gedung mekanisme-penitipan mekanisme-park-and-ride mekanisme-vallet mekanisme-tpe jenis-langganan-tpe tarif-langganan-tpe
     ```
 
 9. Jalankan development server

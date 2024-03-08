@@ -1,0 +1,38 @@
+[
+  {
+    "model": "tarif.MekanismeTarifPenitipanKendaraan",
+    "pk": 25,
+    "fields": {
+      "jenis_kendaraan": [1, 2, 3, 4],
+      "tarif": 45000,
+      "cara_pembayaran": "per hari"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifPenitipanKendaraan",
+    "pk": 26,
+    "fields": {
+      "jenis_kendaraan": [5, 6],
+      "tarif": 85000,
+      "cara_pembayaran": "per hari"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifPenitipanKendaraan",
+    "pk": 27,
+    "fields": {
+      "jenis_kendaraan": [7],
+      "tarif": 25000,
+      "cara_pembayaran": "per hari"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifPenitipanKendaraan",
+    "pk": 28,
+    "fields": {
+      "jenis_kendaraan": [8],
+      "tarif": 10000,
+      "cara_pembayaran": "per hari"
+    }
+  }
+]

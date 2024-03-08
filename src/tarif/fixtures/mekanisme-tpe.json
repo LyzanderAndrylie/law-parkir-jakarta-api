@@ -1,0 +1,9 @@
+[
+  {
+    "model": "tarif.MekanismeTarifTPE",
+    "pk": 33,
+    "fields": {
+      "tarif_harian": 1
+    }
+  }
+]

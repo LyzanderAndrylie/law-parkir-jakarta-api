@@ -1,0 +1,233 @@
+[
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 1,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 2,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 3,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 4,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 5,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 6,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 7,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 8,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 9,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 10,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 11,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 12,
+    "fields": {
+      "jenis_tarif": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 13,
+    "fields": {
+      "jenis_tarif": 2
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 14,
+    "fields": {
+      "jenis_tarif": 2
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 15,
+    "fields": {
+      "jenis_tarif": 2
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 16,
+    "fields": {
+      "jenis_tarif": 2
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 17,
+    "fields": {
+      "jenis_tarif": 3
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 18,
+    "fields": {
+      "jenis_tarif": 3
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 19,
+    "fields": {
+      "jenis_tarif": 3
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 20,
+    "fields": {
+      "jenis_tarif": 3
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 21,
+    "fields": {
+      "jenis_tarif": 4
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 22,
+    "fields": {
+      "jenis_tarif": 4
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 23,
+    "fields": {
+      "jenis_tarif": 4
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 24,
+    "fields": {
+      "jenis_tarif": 4
+    }
+  },
+    {
+    "model": "tarif.MekanismeTarif",
+    "pk": 25,
+    "fields": {
+      "jenis_tarif": 5
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 26,
+    "fields": {
+      "jenis_tarif": 5
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 27,
+    "fields": {
+      "jenis_tarif": 5
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 28,
+    "fields": {
+      "jenis_tarif": 5
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 29,
+    "fields": {
+      "jenis_tarif": 6
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 30,
+    "fields": {
+      "jenis_tarif": 6
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 31,
+    "fields": {
+      "jenis_tarif": 6
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 32,
+    "fields": {
+      "jenis_tarif": 7
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarif",
+    "pk": 33,
+    "fields": {
+      "jenis_tarif": 8
+    }
+  }
+]

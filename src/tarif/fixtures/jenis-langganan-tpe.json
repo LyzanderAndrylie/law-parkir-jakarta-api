@@ -1,0 +1,26 @@
+[
+  {
+    "model": "tarif.JenisLanggananTPE",
+    "pk": 1,
+    "fields": {
+      "jam": 12,
+      "jenis_penggunaan_lahan_parkir": "menetap"
+    }
+  },
+  {
+    "model": "tarif.JenisLanggananTPE",
+    "pk": 2,
+    "fields": {
+      "jam": 4,
+      "jenis_penggunaan_lahan_parkir": "tidak menetap"
+    }
+  },
+  {
+    "model": "tarif.JenisLanggananTPE",
+    "pk": 3,
+    "fields": {
+      "jam": 2,
+      "jenis_penggunaan_lahan_parkir": "tidak menetap"
+    }
+  }
+]

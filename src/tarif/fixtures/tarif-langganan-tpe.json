@@ -1,0 +1,74 @@
+[
+  {
+    "model": "tarif.TarifLanggananTPE",
+    "pk": 1,
+    "fields": {
+      "tarif_tpe": 33,
+      "jenis_langganan_per_hari": [
+        1,
+        2,
+        3
+      ],
+      "jenis_kendaraan": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "total_hari": 0,
+      "tarif_hari_jam": 5000
+    }
+  },
+  {
+    "model": "tarif.TarifLanggananTPE",
+    "pk": 2,
+    "fields": {
+      "tarif_tpe": 33,
+      "jenis_langganan_per_hari": [
+        1,
+        2,
+        3
+      ],
+      "jenis_kendaraan": [
+        5,
+        6
+      ],
+      "total_hari": 0,
+      "tarif_hari_jam": 8000
+    }
+  },
+  {
+    "model": "tarif.TarifLanggananTPE",
+    "pk": 3,
+    "fields": {
+      "tarif_tpe": 33,
+      "jenis_langganan_per_hari": [
+        1,
+        2,
+        3
+      ],
+      "jenis_kendaraan": [
+        7
+      ],
+      "total_hari": 0,
+      "tarif_hari_jam": 2000
+    }
+  },
+  {
+    "model": "tarif.TarifLanggananTPE",
+    "pk": 4,
+    "fields": {
+      "tarif_tpe": 33,
+      "jenis_langganan_per_hari": [
+        1,
+        2,
+        3
+      ],
+      "jenis_kendaraan": [
+        8
+      ],
+      "total_hari": 0,
+      "tarif_hari_jam": 1000
+    }
+  }
+]

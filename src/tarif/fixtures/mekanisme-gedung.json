@@ -1,0 +1,182 @@
+[
+  {
+    "model": "tarif.MekanismeTarifHarian",
+    "pk": 9,
+    "fields": {
+      "min_tarif_jam_pertama": 4000,
+      "max_tarif_jam_pertama": 10000,
+      "min_tarif_jam_berikutnya": 2000,
+      "max_tarif_jam_berikutnya": 8000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifHarian",
+    "pk": 10,
+    "fields": {
+      "min_tarif_jam_pertama": 6000,
+      "max_tarif_jam_pertama": 7000,
+      "min_tarif_jam_berikutnya": 3000,
+      "max_tarif_jam_berikutnya": 3000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifHarian",
+    "pk": 11,
+    "fields": {
+      "min_tarif_jam_pertama": 1000,
+      "max_tarif_jam_pertama": 4000,
+      "min_tarif_jam_berikutnya": 1000,
+      "max_tarif_jam_berikutnya": 4000,
+      "cara_pembayaran": "per jam"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifHarian",
+    "pk": 12,
+    "fields": {
+      "min_tarif_jam_pertama": 1000,
+      "max_tarif_jam_pertama": 1000,
+      "min_tarif_jam_berikutnya": 1000,
+      "max_tarif_jam_berikutnya": 1000,
+      "cara_pembayaran": "satu kali parkir"
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananUmum",
+    "pk": 9,
+    "fields": {
+      "hari": 25,
+      "intensitas": 3,
+      "min_tarif_dasar": 4000,
+      "max_tarif_dasar": 10000
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananUmum",
+    "pk": 10,
+    "fields": {
+      "hari": 25,
+      "intensitas": 3,
+      "min_tarif_dasar": 6000,
+      "max_tarif_dasar": 7000
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananUmum",
+    "pk": 11,
+    "fields": {
+      "hari": 25,
+      "intensitas": 2,
+      "min_tarif_dasar": 1000,
+      "max_tarif_dasar": 4000
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananUmum",
+    "pk": 12,
+    "fields": {
+      "hari": 25,
+      "intensitas": 2,
+      "min_tarif_dasar": 1000,
+      "max_tarif_dasar": 1000
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananKhusus",
+    "pk": 9,
+    "fields": {
+      "hari": 22,
+      "kali_parkir": 1,
+      "min_tarif_dasar": 4000,
+      "max_tarif_dasar": 10000,
+      "multiplier": 0.75
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananKhusus",
+    "pk": 10,
+    "fields": {
+      "hari": 22,
+      "kali_parkir": 1,
+      "min_tarif_dasar": 6000,
+      "max_tarif_dasar": 7000,
+      "multiplier": 0.75
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananKhusus",
+    "pk": 11,
+    "fields": {
+      "hari": 22,
+      "kali_parkir": 1,
+      "min_tarif_dasar": 1000,
+      "max_tarif_dasar": 4000,
+      "multiplier": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifLanggananKhusus",
+    "pk": 12,
+    "fields": {
+      "hari": 22,
+      "kali_parkir": 1,
+      "min_tarif_dasar": 1000,
+      "max_tarif_dasar": 1000,
+      "multiplier": 1
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifGedung",
+    "pk": 21,
+    "fields": {
+      "jenis_kendaraan": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "mekanisme_harian": 9,
+      "mekanisme_langganan_umum": 9,
+      "mekanisme_langganan_khusus": 9
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifGedung",
+    "pk": 22,
+    "fields": {
+      "jenis_kendaraan": [
+        5,
+        6
+      ],
+      "mekanisme_harian": 10,
+      "mekanisme_langganan_umum": 10,
+      "mekanisme_langganan_khusus": 10
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifGedung",
+    "pk": 23,
+    "fields": {
+      "jenis_kendaraan": [
+        7
+      ],
+      "mekanisme_harian": 11,
+      "mekanisme_langganan_umum": 11,
+      "mekanisme_langganan_khusus": 11
+    }
+  },
+  {
+    "model": "tarif.MekanismeTarifGedung",
+    "pk": 24,
+    "fields": {
+      "jenis_kendaraan": [
+        8
+      ],
+      "mekanisme_harian": 12,
+      "mekanisme_langganan_umum": 12,
+      "mekanisme_langganan_khusus": 12
+    }
+  }
+]
