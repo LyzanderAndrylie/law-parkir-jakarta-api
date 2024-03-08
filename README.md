@@ -14,6 +14,8 @@
   - [Keunikan Service](#keunikan-service)
   - [Keuntungan dari Web Service](#keuntungan-dari-web-service)
   - [Daftar Service](#daftar-service)
+    - [Lokasi Parkir](#lokasi-parkir)
+    - [Tarif Layanan Parkir](#tarif-layanan-parkir)
   - [Contoh Pemanggilan Service](#contoh-pemanggilan-service)
 
 Parkir Jakarta API adalah *web service* yang menyediakan layanan perhitungan tarif layanan parkir di Jakarta berdasarakan parameter tertentu dan lokasi parkir sesuai dengan yang tertulis pada [Peraturan Gubernur Provinsi Daerah Khusus Ibukota Jakarta Nomor 31 Tahun 2017](./misc/Peraturan%20Gubernur%20Provinsi%20Daerah%20Khusus%20Ibukota%20Jakarta%20Nomor%2031%20Tahun%202017.pdf).
@@ -79,7 +81,7 @@ Sebagaimana yang tertuang dalam pasal 3, 4, dan 5 pada [Peraturan Gubernur Provi
 | lingkungan/pelataran/gedung parkir    | <ul> <li>tarif atas pemakaian jam pertama (tarif dasar)</li> <li>ditambah dengan tarif jam berikutnya atas pemakaian satuan ruang parkir (SRP)</li> <li>jenis kendaraan</li></ul> |
 | penitipan kendaraan dan park and ride | <ul><li>jenis kendaraan</li><li>jangka waktu parkir</li></ul>                                                                                                                     |
 | vallet                                | <ul><li>penggunaan jasa layanan untuk 1 kali parkir</li></ul>                                                                                                                     |
-| terminal parkir elektronik (TPE)      | <ul><li>penggunaan jumlah satuan ruang parkir (SRP) yang digunakan dikalikan jam penggunaan dalam 1 hari</li></ul>
+| terminal parkir elektronik (TPE)      | <ul><li>penggunaan jumlah satuan ruang parkir (SRP) yang digunakan dikalikan jam penggunaan dalam 1 hari</li></ul>                                                                |
 
 ### Pekerjaan Masa Depan (*Future Works*)
 
@@ -152,8 +154,130 @@ Ketika *web service* ini dapat menyediakan informasi mengenai tarif layanan park
 
 ## Daftar Service
 
-TBD
+*Web service* ini menyediakan API sebagai berikut.
+
+### Lokasi Parkir
+
+1. Mendapatkan informasi mengenai lokasi parkir yang dikelola oleh Pemerintah Daerah Jakarta
+
+   Method: GET
+
+   >```text
+   >/api/v1/lokasi
+   >```
+
+2. Mendapatkan detail lokasi parkir
+
+   Method: GET
+
+   >```text
+   >/api/v1/lokasi/:id
+   >```
+
+3. Mencari lokasi parkir berdasarkan parameter tertentu
+
+   Method: GET
+
+   >```text
+   >/api/v1/lokasi
+   >```
+
+   Query Params
+
+   | Param                  | value                       |
+   | ---------------------- | --------------------------- |
+   | search                 | <nama_lokasi>               |
+   | jenis                  | <jenis_jasa_layanan_parkir> |
+   | kapasitas_mobil        | <jumlah_kapasistas>         |
+   | kapasitas_motor        | <jumlah_kapasistas>         |
+   | kapasitas_bus_truk     | <jumlah_kapasistas>         |
+   | min_luas_m2            | <luas_parkiran>             |
+   | max_luas_m2            | <luas_parkiran>             |
+   | max_kapasitas_mobil    | <jumlah_kapasistas>         |
+   | min_kapasitas_mobil    | <jumlah_kapasistas>         |
+   | max_kapasitas_motor    | <jumlah_kapasistas>         |
+   | min_kapasitas_motor    | <jumlah_kapasistas>         |
+   | max_kapasitas_bus_truk | <jumlah_kapasistas>         |
+   | min_kapasitas_bus_truk | <jumlah_kapasistas>         |
+
+### Tarif Layanan Parkir
+
+1. Mendapatkan informasi mengenai jenis jasa layanan parkir yang dikelola oleh Pemerintah Daerah Jakarta
+
+   Method: GET
+
+   >```text
+   >/api/v1/tarif/
+   >```
+
+2. Mendapatkan detail untuk masing-masing jenis jasa layanan parkir
+
+   - jasa layanan parkir pada ruang milik jalan (rumija)
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-rumija/
+      >```
+
+   - jasa layanan parkir pada lingkungan parkir
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-lingkungan/
+      >```
+
+   - jasa layanan parkir pada pelataran parkir
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-pelataran/
+      >```
+
+   - jasa layanan parkir pada gedung parkir
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-gedung/
+      >```
+
+   - jasa layanan parkir pada lokasi penitipan kendaraan
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-penitipan/
+      >```
+
+   - jasa layanan parkir pada lokasi park-and-ride
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-park-and-ride/
+      >```
+
+   - jasa layanan parkir pada lokasi park-and-ride
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-vallet/
+      >```
+
+   - jasa layanan parkir pada lokasi dengan alat ukur terminal parkir elektronik (TPE)
+
+      Method: GET
+
+      >```text
+      >/api/v1/mekanisme-tpe/
+      >```
 
 ## Contoh Pemanggilan Service
 
-TBD
+Contoh pemanggilan *web service* terdapat pada file [`postman.md`](./misc/postman.md).
+
+:link: [postman.md](./misc/postman.md)
