@@ -15,7 +15,7 @@
         3,
         4
       ],
-      "total_hari": 0,
+      "total_hari": 25,
       "tarif_hari_jam": 5000
     }
   },
@@ -33,7 +33,7 @@
         5,
         6
       ],
-      "total_hari": 0,
+      "total_hari": 25,
       "tarif_hari_jam": 8000
     }
   },
@@ -50,7 +50,7 @@
       "jenis_kendaraan": [
         7
       ],
-      "total_hari": 0,
+      "total_hari": 25,
       "tarif_hari_jam": 2000
     }
   },
@@ -67,7 +67,7 @@
       "jenis_kendaraan": [
         8
       ],
-      "total_hari": 0,
+      "total_hari": 25,
       "tarif_hari_jam": 1000
     }
   }

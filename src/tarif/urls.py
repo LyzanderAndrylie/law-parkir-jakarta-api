@@ -25,4 +25,14 @@ router.register(MEKANISME_URL_MAPPING['terminal parkir elektronik'], views.Mekan
 
 urlpatterns = [
     path('', include(router.urls)),
+    path(f'{MEKANISME_URL_MAPPING['ruang milik jalan']}/tarif/', views.HitungTarifRuangMilikJalan.as_view(),
+         name="tarif-mekanisme-rumija"),
+    path(f'{MEKANISME_URL_MAPPING['lingkungan']}/tarif/', views.HitungTarifLingkungan.as_view(),
+         name="tarif-mekanisme-lingkungan"),
+    path(f'{MEKANISME_URL_MAPPING['pelataran']}/tarif/', views.HitungTarifPelataran.as_view(),
+         name="tarif-mekanisme-pelataran"),
+    path(f'{MEKANISME_URL_MAPPING['gedung']}/tarif/', views.HitungTarifGedung.as_view(),
+         name="tarif-mekanisme-gedung"),
+    path(f'{MEKANISME_URL_MAPPING['penitipan kendaraan']}/tarif/', views.HitungTarifPenitipan.as_view(),
+         name="tarif-mekanisme-penitipan"),
 ]
